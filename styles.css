@@ -1,0 +1,66 @@
+#status-container {
+	text-transform: uppercase;
+	font-family: 'Metropolis';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	width: 400px;
+	max-width: fit-content;
+	text-align: center;
+	background-color: #D12025;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+	background: transparent;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+}
+
+#main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#info {
+	position: relative;
+	display: none;
+	width: 210px;
+	height: 50px;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+}
+
+#progress-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #dab643, #bfa32a);
+	z-index: 1;
+	transform-origin: left center;
+}
+
+#timer-text {
+	position: relative;
+	z-index: 2;
+	line-height: 50px;
+}
