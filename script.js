@@ -29,10 +29,6 @@ client.on('Twitch.AdRun', (response) => {
     adRun(response.data);
 });
 
-// client.on('Twitch.AdMidRoll', (response) => {
-    
-// });
-
 //FUNCIONES DE STREAMERBOT//
 
 function adRun(data){
