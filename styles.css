@@ -37,7 +37,7 @@ body {
 
 #info {
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;  /* centro horizontal */
   align-items: center;      /* centro vertical */
 
